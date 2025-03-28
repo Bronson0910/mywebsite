@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+    <title>My Film</title>
+    <style>
+        body {
+            background-color: #343434;
+            text-align: center;
+            color: white;
+            font-weight:lighter;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .video-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .video-item {
+            margin: 10px;
+            width: 300px;
+        }
+
+        .video-item img,
+        .video-item video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .section-box {
+            border: 2px solid #ccc;
+            padding: 10px;
+            margin: 20px auto;
+            border-radius: 8px;
+            background-color: #444;
+            display: inline-block;
+            width:20%;
+        }
+
+        .button-container {
+            margin: 20px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+            color: #343434;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #f0f0f0;
+        }
+
+        .category {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .section-bx {
+        padding: 23px;
+        background-color:white;
+        border-radius: 10px;
+        width: 100%; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+        font-weight: lighter;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        margin: 0; 
+        }
+        
+
+        footer {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+            color: white;
+            position: relative; 
+        }
+    </style>
+</head>
+<body>
+    <div class="section-bx" style="text-align: center;">
+        <a href="index.html" style="color: gray; text-decoration: none;">Home /</a>&nbsp;&nbsp;&nbsp;
+        <a href="bio.html" style="color: gray; text-decoration: none;">Biography /</a>&nbsp;&nbsp;&nbsp;
+        <a href="skills.html" style="color: gray; text-decoration: none;">Skills /</a>&nbsp;&nbsp;&nbsp;
+        <a href="resume.html" style="color: gray; text-decoration: none;">Resume /</a>&nbsp;&nbsp;&nbsp;
+        <a href="media.html" style="color: gray; text-decoration: none;">Media /</a>&nbsp;&nbsp;&nbsp;
+        <a href="Photogallery.html" style="color: gray; text-decoration: none;">Photos /</a>&nbsp;&nbsp;&nbsp;
+        <a href="DreamPlacestoVisit.html" style="color: gray; text-decoration: none;">Dream Place /</a>&nbsp;&nbsp;&nbsp;
+        <a href="Bucketlist.html" style="color: gray; text-decoration: none;">Bucketlist /</a>&nbsp;&nbsp;&nbsp;
+        <a href="MyTheOne.html" style="color: gray; text-decoration: none;">My Status /</a>&nbsp;&nbsp;&nbsp;
+        <a href="contact.html" style="color: gray; text-decoration: none;">Contact</a>
+    </div>
+
+    <main>
+        <section id="my-kind-of-film" class="my-kind-of-film">
+            <div class="media-section">
+                <div class="section-box">
+                    <h2>My Film</h2>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3>TV Shows</h3>
+                <div class="video-gallery">
+                    <div class="video-item">
+                        <p>Title: itShowtime</p>
+                        <img src="c:\Users\Admin\Downloads\showtime.jpg" alt="itShowtime" title="Showtime">
+                        <video controls>
+                            <source src="c:\Users\Admin\Downloads\4c173d42-f552-445d-946c-03e71fd953c0.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <p>Title: Eat Bulaga</p>
+                        <img src="c:\Users\Admin\Downloads\Eatbulaga.jpg" alt="Eat Bulaga" title="Eat Bulaga">
+                        <video controls>
+                            <source src="c:\Users\Admin\Downloads\Ang solusyon sa taghiyawat na bumabalik.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3>Movies</h3>
+                <div class="video-gallery">
+                    <div class="video-item">
+                        <p>Title: Twilight</p>
+                        <img src="c:\Users\Admin\Downloads\Twilight.jpg" alt="Movie 1" title="Twilight">
+                        <video controls>
+                            <source src="c:\Users\Admin\Downloads\videoplayback.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <p>Title: Pitch Perfect</p>
+                        <img src="c:\Users\Admin\Downloads\Pitch Perfect.jpg" alt="Movie 2" title="Pitch Perfect">
+                        <video controls>
+                            <source src="c:\Users\Admin\Downloads\Pitch Perfect _ clip - The Bellas remix Just the Way You Are.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="button-container">
+        <button onclick="window.scrollTo(0, 0)">Go to Top</button>
+        <button onclick="window.location.href='media.html'">Media</button>
+    </div>
+
+    <footer>
+        <p>&copy;2025, University of the East.</p>
+    </footer>
+</body>
+</html>

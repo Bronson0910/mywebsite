@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+    <title>My Beats</title>
+    <style>
+        body {
+            background-color: #343434;
+            text-align: center;
+            color: white;
+            font-weight:lighter;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font: size 15px;;
+        }
+
+        .audio-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .audio-item {
+            margin: 10px;
+            width: 300px;
+        }
+
+        .audio-item img {
+            width: 100%; 
+            height: auto;
+            display: block; 
+        }
+
+        .audio-item audio {
+            width: 100%; 
+            display: block; 
+        }
+
+        .section-box {
+            border: 2px solid #ccc;
+            padding: 10px;
+            margin: 20px auto;
+            border-radius: 8px;
+            background-color: #444;
+            display: inline-block;
+            width:20%;
+        }
+
+        .button-container {
+            margin: 20px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+            color: #343434;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #f0f0f0;
+        }
+
+        .category {
+            margin-bottom: 30px;
+        }
+
+        header {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+            color: white;
+            position: relative; 
+        }
+
+        .floating-btn {
+            position: absolute;
+            background-color: white;
+            color: #343434;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        #homeBtn {
+            left: 10px;
+            bottom: 10px;
+        }
+
+        #goTopBtn {
+            right: 10px;
+            bottom: 10px;
+        }
+
+        h2 {
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center; 
+            margin-top: 20px;
+        }
+        .section-bx {
+        padding: 23px;
+        background-color:white;
+        border-radius: 10px;
+        width: 100%; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+        font-weight: lighter;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        margin: 0; 
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="section-bx" style="text-align: center;">
+        <a href="index.html" style="color: gray; text-decoration: none;">Home /</a>&nbsp;&nbsp;&nbsp;
+        <a href="bio.html" style="color: gray; text-decoration: none;">Biography /</a>&nbsp;&nbsp;&nbsp;
+        <a href="skills.html" style="color: gray; text-decoration: none;">Skills /</a>&nbsp;&nbsp;&nbsp;
+        <a href="resume.html" style="color: gray; text-decoration: none;">Resume /</a>&nbsp;&nbsp;&nbsp;
+        <a href="media.html" style="color: gray; text-decoration: none;">Media /</a>&nbsp;&nbsp;&nbsp;
+        <a href="Photogallery.html" style="color: gray; text-decoration: none;">Photos /</a>&nbsp;&nbsp;&nbsp;
+        <a href="DreamPlacestoVisit.html" style="color: gray; text-decoration: none;">Dream Place /</a>&nbsp;&nbsp;&nbsp;
+        <a href="Bucketlist.html" style="color: gray; text-decoration: none;">Bucketlist /</a>&nbsp;&nbsp;&nbsp;
+        <a href="MyTheOne.html" style="color: gray; text-decoration: none;">My Status /</a>&nbsp;&nbsp;&nbsp;
+        <a href="contact.html" style="color: gray; text-decoration: none;">Contact</a>
+    </div>
+
+    <main>
+        <section id="my-beat" class="my-beat">
+            <div class="media-section">
+                <div class="section-box">
+                    <h2>My Beats</h2>
+                </div>
+            </div>
+            
+            <div class="category">
+                <h3>Rap</h3>
+                <div class="audio-gallery">
+                    <div class="audio-item">
+                        <p>Title: High School</p>
+                        <img src="c:\Users\Admin\Downloads\shanti.jpg" alt="Shanti  Dope" title="High School">
+                        <audio controls>
+                            <source src="c:\Users\Admin\Downloads\Highschool.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div class="audio-item">
+                        <p>Title: My Day</p>
+                        <img src="c:\Users\Admin\Downloads\hell merrry.jpg" alt="Hell Merry" title="My Day">
+                        <audio controls>
+                            <source src="c:\Users\Admin\Downloads\wwd.mp3juice.blog - HELLMERRY - My Day (Official Music Video) (64 KBps).mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div class="audio-item">
+                        <p>Title: 4am</p>
+                        <img src="c:\Users\Admin\Downloads\hell merry 4am.jpg" alt="Hell Merry" title="4am">
+                        <audio controls>
+                            <source src="c:\Users\Admin\Downloads\wwd.mp3juice.blog - HELLMERRY - 4 AM (Official Music Video) (64 KBps).mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3>Rock</h3>
+                <div class="audio-gallery">
+                    <div class="audio-item">
+                        <p>Title: Lips of an angel</p>
+                        <img src="c:\Users\Admin\Downloads\lips of an angel.jpg" alt="Hinder" title="Lips of an angel">
+                        <audio controls>
+                            <source src="c:\Users\Admin\Downloads\wwd.mp3juice.blog - Hinder - Lips Of An Angel (Official Music Video) (64 KBps).mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div class="audio-item">
+                        <p>Title; IRIS</p>
+                        <img src="c:\Users\Admin\Downloads\the go go dolls.jpg" alt="Goo Goo Dolls" title="IRIS">
+                        <audio controls>
+                            <source src="c:\Users\Admin\Downloads\wwd.mp3juice.blog - Goo Goo Dolls – Iris Official Music Video 4K Remaster (64 KBps).mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div class="audio-item">
+                        <p>Title: Its my life</p>
+                        <img src="c:\Users\Admin\Downloads\bon jivi.jpg" alt="Bon Jovi" title="Its my life">
+                        <audio controls>
+                            <source src="c:\Users\Admin\Downloads\wwd.mp3juice.blog - Bon Jovi - It s My Life (64 KBps).mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3>Pop</h3>
+                <div class="audio-gallery">
+                    <div class="audio-item">
+                        <p>Title: Party</p>
+                        <img src="c:\Users\Admin\Downloads\party.jpg" alt="Chris Brown" title="Party">
+                        <audio controls>
+                            <source src="c:\Users\Admin\Downloads\wwd.mp3juice.blog - Chris Brown - Party (Lyrics) ft. Usher, Gucci Mane (64 KBps).mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div class="audio-item">
+                        <p>Title: Influence</p>
+                        <img src="c:\Users\Admin\Downloads\influence.jpg" alt="Chris Brown" title="Influence">
+                        <audio controls>
+                            <source src="c:\Users\Admin\Downloads\wwd.mp3juice.blog - Chris Brown - Under The Influence (Official Video) (64 KBps).mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div class="audio-item">
+                        <p>Title: IDGAF</p>
+                        <img src="c:\Users\Admin\Downloads\dont give a f.jpg" alt="Chris Brown" title="IDGAF">
+                        <audio controls>
+                            <source src="c:\Users\Admin\Downloads\wwd.mp3juice.blog - Tee Grizzley - IDGAF (feat. Chris Brown Mariah The Scientist) Official Video (64 KBps).mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="button-container">
+        <button onclick="window.scrollTo(0, 0)">Go to Top</button>
+        <button onclick="window.location.href='media.html'">Media</button>
+    </div>
+
+    <footer>
+        <p>&copy;2025, University of the East.</p>
+    </footer>
+</body>
+</html>

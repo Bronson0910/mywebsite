@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyTheOne</title>
+    <style>
+        body {
+            font-family: Bricolage Grotesque; 
+            margin: 0;
+            padding: 0;
+            background-color: #343434;
+            color: white; 
+            line-height: 1.6; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+        .content {
+            display: flex;
+            width: 90%;
+            max-width: 1200px;
+            margin-top: 20px;
+        }
+        .text-section {
+            flex: 1;
+            padding: 23px;
+            margin-right: 20px;
+            background-color: #444;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        }
+        h1 {
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+            text-align: center; 
+            margin-top: 20px;
+        }
+        blockquote {
+            margin: 0;
+            padding: 0;
+            font-style: italic; 
+            text-align: left;
+            color: white; 
+        }
+        .video-section {
+            flex: 0 0 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .button-container {
+            text-align: center; 
+            margin: 20px 0; 
+        }
+        .top-button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color:white; 
+            color: #343434; 
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s; 
+        }
+        .top-button:hover {
+            background-color: #555; 
+        }
+        ul {
+            list-style-position: inside;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="section-bx">
+        <a href="index.html" style="color: gray; text-decoration: none;">Home /</a>&nbsp;&nbsp;&nbsp;
+        <a href="bio.html" style="color: gray; text-decoration: none;">Biography /</a>&nbsp;&nbsp;&nbsp;
+        <a href="skills.html" style="color: gray; text-decoration: none;">Skills /</a>&nbsp;&nbsp;&nbsp;
+        <a href="resume.html" style="color: gray; text-decoration: none;">Resume /</a>&nbsp;&nbsp;&nbsp;
+        <a href="media.html" style="color: gray; text-decoration: none;">Media /</a>&nbsp;&nbsp;&nbsp;
+        <a href="Photogallery.html" style="color: gray; text-decoration: none;">Photos /</a>&nbsp;&nbsp;&nbsp;
+        <a href="DreamPlacestoVisit.html" style="color: gray; text-decoration: none;">Dream Place /</a>&nbsp;&nbsp;&nbsp;
+        <a href="Bucketlist.html" style="color: gray; text-decoration: none;">Bucketlist /</a>&nbsp;&nbsp;&nbsp;
+        <a href="MyTheOne.html" style="color: gray; text-decoration: none;">My Status /</a>&nbsp;&nbsp;&nbsp;
+        <a href="contact.html" style="color: gray; text-decoration: none;">Contact</a>
+    </div>
+
+    <header>
+        <h1>The Only Person That I Love</h1>
+    </header>
+
+    <main class="content">
+        <section class="text-section" aria-labelledby="My Love">
+            <h2 id="My Love" class="visually-hidden">My Love</h2>
+            <blockquote> 
+                By the way, She's Francheska. She is the person I met who will change my life. 
+                She is the person I once met that I will never forget. Since she came into my life, everything has changed, everyone has become happy, and everything has become lively. 
+                This person will make me feel that I am a loved person. she is the one who made me feel joy that no one else can match. She is the person who, no matter how difficult and chaotic my situation is,
+                 supports me in facing the problems I encounter. Smiles, sadness, anger, happiness, these are all feelings you will experience when you enter a serious and genuine relationship, but it is rare to
+                  find someone who will endure and accept you completely. Because people like this come into our lives only once in a while, they are the ones who take a risk in your life without any guarantee that we can win.
+                   So when they come into your life and you feel that she is the one for you, don’t let her go because that is a sign from God that she is the person who will love you.
+                   If you ever find yourself in a situation where things are very difficult, the only thing you can think about are the things that make you happy, especially during your first year together when you were truly happy. 
+                   There comes a point in every relationship where problems arise; this is where you measure how much you love each other. In every imperfect relationship, every happy moment has a counterpart of sadness.
+                    However, just remember that the challenges and problems that come in a relationship also have their share of joy, though not always. But always keep in mind the person you are with in life; they are the ones who are willing to be with you as you grow old.
+                     That’s how you will know if you are meant for each other. Even if your relationship doesn’t succeed right now, who knows, there might be someone coming into your life that God is preparing for your future relationship, because you don’t need to search for it, it will come to you naturally.
+            </blockquote>
+        </section>
+
+        <div class="video-section">
+            <video width="300" controls>
+                <source src="c:\Users\Admin\Downloads\5d937361-21a3-4a5e-9ef1-05ea9c900528.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </main>
+
+    <div class="button-container">
+        <button class="top-button" onclick="scrollToTop()">Scroll To Top</button>
+    </div>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
